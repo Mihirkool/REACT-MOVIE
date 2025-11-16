@@ -70,23 +70,23 @@ npm start
 
 The core components of the application are organized as follows:
 
-REACT-MOVIE/
-└── frontend/
-    └── src/
-        ├── components/
-        │   ├── InteractiveBackground.jsx  # Three.js Visualization & Tone.js
-        │   ├── MovieCard.jsx            # Displays movie data and favorite button
-        │   └── NavBar.jsx
-        ├── contexts/
-        │   └── MovieContext.jsx         # Manages global favorites state (local storage persistence)
-        ├── pages/
-        │   ├── Favourites.jsx           # Displays list of saved favorites
-        │   └── Home.jsx                 # Search page
-        ├── css/
-        │   └── *.*css                   # Styling files
-        ├── services/
-        │   └── api.js                   # Functions for fetching data from TMDb
-        └── App.jsx                      # Main router and component layout
+REACT-MOVIE/  
+└── frontend/  
+    └── src/  
+        ├── components/  
+        │   |  
+        │   ├── MovieCard.jsx              
+        │   └── NavBar.jsx  
+        ├── contexts/    
+        │   └── MovieContext.jsx            
+        ├── pages/   
+        │   ├── Favourites.jsx             
+        │   └── Home.jsx                
+        ├── css/        
+        │   └── *.*css                   
+        ├── services/     
+        │   └── api.js                    
+        └── App.jsx                  
 
 
 🤝 Contributing
